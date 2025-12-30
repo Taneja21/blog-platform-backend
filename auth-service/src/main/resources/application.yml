@@ -14,3 +14,14 @@ spring:
     hibernate:
       ddl-auto: update
     show-sql: true
+
+jwt:
+  secret: QWxhZGRpbjpPcGVuU2zzByUUnHHYW1lU2VjcmV0S2V5MTIzNDU2
+  expiration-ms: 3600000    #1 hour
+
+
+logging:
+  level:
+    root: INFO
+    com.blogplatform.auth: INFO
+    org.springframework.security: DEBUG
